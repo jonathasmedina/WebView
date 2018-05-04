@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,11 +24,9 @@ public class MainActivity extends AppCompatActivity {
         ws.setJavaScriptEnabled(true);
         ws.setSupportZoom(false);
 
+        //para não abrir navegador
+        wv.setWebViewClient(new WebViewClient());
         //acessar a URL
         wv.loadUrl("http://www.betaetiquetas.com.br/product_images/y/643/teste1__63139_zoom.png");
-
-        //para montar html/javascript, string html + wv.loadData(html);
-
-
     }
 }

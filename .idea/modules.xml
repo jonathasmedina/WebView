@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/WebView.iml" filepath="$PROJECT_DIR$/WebView.iml" />
+      <module fileurl="file://E:\Projetos_AndroidStudio\WebView_esse\WebView\WebView.iml" filepath="E:\Projetos_AndroidStudio\WebView_esse\WebView\WebView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\Projetos_AndroidStudio\WebView_esse\WebView\app\app.iml" filepath="E:\Projetos_AndroidStudio\WebView_esse\WebView\app\app.iml" />
     </modules>
   </component>
 </project>
